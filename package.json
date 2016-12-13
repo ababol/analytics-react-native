@@ -69,15 +69,5 @@
     ],
     "sourceMap": false,
     "instrument": false
-  },
-  "config": {
-    "pre-git": {
-      "pre-commit": [
-        "npm run lint"
-      ],
-      "pre-push": [
-        "npm run test"
-      ]
-    }
   }
 }
